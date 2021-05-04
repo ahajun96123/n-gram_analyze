@@ -33,8 +33,3 @@ for sentence in line:
 
 f_tri.close()
 
-f3 = open('tri.txt', 'r')
-lines = f3.readlines()
-f3.close()
-for i in range(5):
-    print(lines[i])
